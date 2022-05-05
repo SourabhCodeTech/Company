@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS/TailwindCSS.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Snake_PortFilio</title>
+</head>
+
+<body>
+    <!-- <header class="flex flex-wrap justify-between container m-auto p-2 bg-green-900 items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 hidden" viewBox="0 0 24 24">
+            <path d='M3 12h18M3 6h18M3 18h18'/>
+        </svg>
+        <div class="text-2xl text-yellow-300"><a href="#">TailwindCSS</a></div>
+        <ul class="flex flex-wrap space-x-4 md:px-4">
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">1ST Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">2ND Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">3RD Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">4TH Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">5TH Home</a></li>
+        </ul>
+        <div class="button">
+            <button class="border-2 py-2 px-3 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">SignUp</button>
+            <button class="border-2 py-2 px-3 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">LogIn</button>
+        </div>
+    </header>
+    <br><br> -->
+    <!-- <header class="flex justify-between p-2 bg-purple-900 items-center">
+        <div class="text-2xl text-yellow-300"><a href="#">TailwindCSS</a></div>
+        <ul class="flex space-x-4 items-center">
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">1ST Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">2ND Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">3RD Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">4TH Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">5TH Home</a></li>
+            <div class="button">
+                <button class="border-2 py-2 px-3 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">SignUp</button>
+                <button class="border-2 py-2 px-3 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">LogIn</button>
+            </div>
+        </ul>
+    </header>
+    <br><br> -->
+    <!-- <header class="flex justify-between p-2 bg-red-900 items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 hidden" viewBox="0 0 24 24">
+            <path d='M3 12h18M3 6h18M3 18h18'/>
+        </svg>
+        <div class="text-2xl text-orange-200"><a href="#">TailwindCSS</a></div>
+        <ul class="flex space-x-4 items-center">
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">1ST Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">2ND Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">3RD Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">4TH Home</a></li>
+            <li><a href="#" class="hover:text-white text-red-400 font-semibold">5TH Home</a></li>
+        </ul>
+        <div class="button">
+            <button class="border-2 font-semibold py-2 px-3 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">SignUp</button>
+            <button class="border-2 font-semibold py-2 px-3 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">LogIn</button>
+        </div>
+        <div class="searchBox">
+            <input type="text" placeholder="Search" class="py-2 px-3 font-[cursive] outline-none rounded-sm border-purple-200 border-4">
+            <button class="border-4 border-gray-400 font-semibold py-2 px-3 rounded-sm bg-white text-black hover:text-white hover:bg-green-900 hover:border-purple-400">Search</button>
+        </div>
+    </header>
+    <br><br> -->
+    <!-- <br><br> -->
+    <header class="flex flex-col md:flex-row justify-between p-2 pt-8 bg-green-900 items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white md:hidden p-2 absolute top-0 right-0"
+            id="toggle" viewBox="0 0 24 24">
+            <path d='M3 12h18M3 6h18M3 18h18' />
+        </svg>
+        <div class="hidden md:block flex md:flex-row" id="hidden">
+            <div class="text-2xl text-yellow-300 pb-3"><a href="#">TailwindCSS</a></div>
+            <ul class="flex md:flex-row flex-col md:items-center md:justify-center md:space-x-5 space-y-4">
+                <li><a href="#" class="hover:text-white text-red-400 font-semibold">1ST Home</a></li>
+                <li><a href="#" class="hover:text-white text-red-400 font-semibold">2ND Home</a></li>
+                <li><a href="#" class="hover:text-white text-red-400 font-semibold">3RD Home</a></li>
+                <li><a href="#" class="hover:text-white text-red-400 font-semibold">4TH Home</a></li>
+                <li><a href="#" class="hover:text-white text-red-400 font-semibold">5TH Home</a></li>
+            </ul>
+            <div class="button flex flex-col md:flex-row space-y-5 pt-4">
+                <button
+                    class="border-2 py-3 px-3 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">SignUp</button>
+                <button
+                    class="border-2 py-2 px-3 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">LogIn</button>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <header class="text-gray-600 body-font bg-green-900">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">Tailblocks</span>
+            </a>
+            <nav
+                class="md:ml-auto md:mr-auto flex flex-col md:flex-row items-center text-base justify-center space-y-4">
+                <a href="#" class="hover:text-white text-red-400 font-semibold">1ST Home</a>
+                <a href="#" class="hover:text-white text-red-400 font-semibold">2ND Home</a>
+                <a href="#" class="hover:text-white text-red-400 font-semibold">3RD Home</a>
+                <a href="#" class="hover:text-white text-red-400 font-semibold">4TH Home</a>
+                <a href="#" class="hover:text-white text-red-400 font-semibold">5TH Home</a>
+            </nav>
+            <button
+                class="border-2 py-2 px-2 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">SignUp</button>
+            <button
+                class="border-2 py-2 px-2 rounded-md bg-pink-500 text-white hover:bg-red-900 hover:border-red-400">LogIn</button>
+        </div>
+    </header>
+
+</body>
+<script src="JS/responsive.js"></script>
+
+</html>
