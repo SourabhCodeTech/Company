@@ -1,0 +1,283 @@
+{% extends '../base.html' %}
+{% block title %}HTML Tutorial In Hindi{% endblock title %}
+{% block css %}
+<style>
+    .html-language {
+        background: rgb(39, 40, 34);
+    }
+</style>
+{% endblock css %}
+{% block body %}
+<div class="container mt-5">
+    <h1>HTML Cheetsheet</h1>
+    <div class="html">
+        <h3 class="mt-4">Boilerplate of HTML</h3>
+        <div class="code-toolbar">
+            <pre class="language-html"><code class="language-markup">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Body --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </div>
+        <p>A tags is like a container for either content or other HTML tags.</p>
+        <p>HTML Language is a Case Sensitivity language. For Example <b>&lt;H1&gt; and &lt;h1&gt;</b> are Same Tag.</p>
+        <h3 class="mt-3">Tags</h3>
+        <p class="mx-2">Tags are two types: </p>
+        <p class="mx-2">1) Opening Tag</p>
+        <p class="mx-2">1) Closing Tag</p>
+        <p><b>Important Notes: </b>Some are self closing tag. Like &rightarrow; &lt;img /&gt;, &lt;br
+            /&gt;, &lt;hr /&gt;
+            etc.
+        </p>
+        <h3>Opening Tag</h3>
+        <p class="mx-2">Opening tag are display in <b>&lt;TagName&gt;</b></p>
+        <h3>Closing Tag</h3>
+        <p class="mx-2">Closing tag are display in <b>&lt;/TagName&gt;</b></p>
+        <div class="comment">
+            <h3>Comments In HTML</h3>
+            <p class="mx-2">Comment in HTML are used to mark text which should not be parsed. They can help Document the
+                Source Code
+            </p>
+            <p class="mx-2">Comment are Display in <b>&lt;!-- Comments In HTML --&gt;</b> </p>
+        </div>
+        <div class="attributes">
+            <h3>HTML Atributes</h3>
+            <p class="mx-2">HTML used attributes to add more Information in Corresponding to a HTML tags.</p>
+            <p class="mx-2">
+            <h5 class="mx-2">For Example: </h5>
+            <pre
+                class="mx-2 language-html"><code class="language-html">&lt;a href="https://www.youtube.com"&gt;Youtube&lt;/a&gt;</code></pre>
+            </p>
+        </div>
+        <div class="qoutes">
+            <h3>Single Qoutes and Double Qoutes</h3>
+            <p>Before write in Atributes name you can use Single Qoutes Or Double Qoutes in any one.</p>
+        </div>
+        <div class="headings">
+            <h3>Headings In HTML</h3>
+            <p class="mx-2">Heading In HTML are Six types: h1, h2, h3, h4, h5 ans h6.</p>
+            <div class="type_of_headings">
+                <h1 class="mx-3">This is a h1 heading.</h1>
+                <h2 class="mx-3">This is a h2 heading.</h2>
+                <h3 class="mx-3">This is a h3 heading.</h3>
+                <h4 class="mx-3">This is a h4 heading.</h4>
+                <h5 class="mx-3">This is a h5 heading.</h5>
+                <h6 class="mx-3">This is a h6 heading.</h6>
+                <br>
+                <p class="mx-4">
+                <h3>&lt;h1&gt; Heading are Display in: </h3>
+                <pre class="language-html"><code class="language-html">&lt;h1&gt;Content&lt;/h1&gt;</code></pre>
+                </p>
+                <p class="mx-4">
+                <h3>&lt;h2&gt; Heading are Display in: </h3>
+                <pre class="language-html"><code class="language-html">&lt;h2&gt;Content&lt;/h2&gt;</code></pre>
+                </p>
+                <p class="mx-4">
+                <h3>&lt;h3&gt; Heading are Display in: </h3>
+                <pre class="language-html"><code class="language-html">&lt;h3&gt;Content&lt;/h3&gt;</code></pre>
+                </p>
+                <p class="mx-4">
+                <h3>&lt;h4&gt; Heading are Display in: </h3>
+                <pre class="language-html"><code class="language-html">&lt;h4&gt;Content&lt;/h4&gt;</code></pre>
+                </p>
+                <p class="mx-4">
+                <h3>&lt;h5&gt; Heading are Display in: </h3>
+                <pre class="language-html"><code class="language-html">&lt;h5&gt;Content&lt;/h5&gt;</code></pre>
+                </p>
+                <p class="mx-4">
+                <h3>&lt;h6&gt; Heading are Display in: </h3>
+                <pre class="language-html"><code class="language-html">&lt;h6&gt;Content&lt;/h6&gt;</code></pre>
+                </p>
+            </div>
+            <p class="mx-2">
+                <span style="font-size: x-large;">Important Notes: </span> 1)h1 is the largest heading.
+                <span class="mx-2">2) h6 is the smallest heading.</span>
+            </p>
+        </div>
+        <div class="paragraphs">
+            <h2>Paragraph Tags In HTML</h2>
+            <p>Paragraph Tag are used to add paragraphs in you HTML Document.</p>
+            <pre class="language-html"><code>&lt;p&gt;You Paragraph&lt;/p&gt;</code></pre>
+        </div>
+        <div class="line_break">
+            <h2>Line Break Tag</h2>
+            <p>Add Line Break In You HTML Document to use br</p>
+            <pre class="language-html"><code>&lt;br /&gt;</code></pre>
+        </div>
+        <div class="bold_italic_underline">
+            <h2>Bold, Italic and Underline Tag</h2>
+            <p>Bold any Text to use
+            <pre class="language-html"><code>&lt;b&gt;This is a Bold Text&lt;/b&gt;</code></pre>
+            </p>
+            <p>Italic any Text to use
+            <pre class="language-html"><code>&lt;i&gt;This is a Italic Text&lt;/i&gt;</code></pre>
+            </p>
+            <p>Underline any Text to use
+            <pre class="language-html"><code>&lt;u&gt;This is a Underline Text&lt;/u&gt;</code></pre>
+            </p>
+        </div>
+        <div class="sub_sup">
+            <h2>Subscript and Superscript</h2>
+            <p>Add Subscript and Superscript In HTML Document to use
+            <pre class="language-html"><code>&lt;sub&gt;This is a Subscript&lt;/sub&gt;</code></pre>
+            <pre class="language-html"><code>&lt;sup&gt;This is a Superscript&lt;/sup&gt;</code></pre>
+            </p>
+        </div>
+        <div class="hr">
+            <h2>Horizontal Ruler Tag</h2>
+            <p>Add Horizontal Ruler In HTML Document to use
+            <pre class="language-html"><code>&lt;hr /&gt;</code></pre>
+            </p>
+        </div>
+        <div class="a">
+            <h2>Anchor Tag</h2>
+            <p>Add Anchor Tag In HTML Document to use
+            <pre
+                class="language-html"><code>&lt;a href="https://www.facebook.com"&gt;Go TO Facebook&lt;/a&gt;</code></pre>
+            </p>
+        </div>
+        <div class="img">
+            <h2>Image Tag</h2>
+            <p>Add Image Tag In HTML Document to use
+            <pre
+                class="language-html"><code>&lt;img src="https://www.dummy.com/400x400" alt="Dummy Image" /&gt;</code></pre>
+            <p>In img tag use alt attributes to show img discription</p>
+            </p>
+        </div>
+        <h1>Container Tags</h1>
+        <h3>Div Tag</h3>
+        <p>Div tag is often used as a container for other elements. div is a block container tag. It takes full width
+        <pre class="language-html"><code>&lt;div&gt;Content and Other tags&lt;/div&gt;</code></pre>
+        </p>
+        <h3>Span Tag</h3>
+        <p>Span tag is a container tag for other elements. Span is a inline container tag. It takes as much
+            width as necessary.
+        <pre class="language-html"><code>&lt;span&gt;Content and Other tags&lt;/span&gt;</code></pre>
+        </p>
+        <div class="list">
+            <h1>List Tags</h1>
+            <h5>List are Two Types: </h5>
+            <p>1) Unordered List</p>
+            <p>2) Ordered List</p>
+            <h3>Unordered List</h3>
+            <p>Used to list Unordered item</p>
+            <pre class="language-html"><code>&lt;ul&gt;
+    &lt;li&gt;Apple&lt;/li&gt;
+    &lt;li&gt;Mango&lt;/li&gt;
+    &lt;li&gt;Banana&lt;/li&gt;
+    &lt;li&gt;etc&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            <h3>Ordered List</h3>
+            <p>Used to list Ordered item</p>
+            <pre class="language-html"><code>&lt;ol&gt;
+    &lt;li&gt;iPad&lt;/li&gt;
+    &lt;li&gt;PC&lt;/li&gt;
+    &lt;li&gt;Laptop&lt;/li&gt;
+    &lt;li&gt;etc&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+        </div>
+        <div class="Table">
+            <h3>Table</h3>
+            <p>A table is a collection of rows and columns. It is used to represent data in tabular form.</p>
+            <h4>Table of Structure</h4>
+            <div class="code-toolbar">
+                <pre class="language-html"><code>&lt;table&gt;
+    &lt;caption&gt;Table&lt;/caption&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;First Column&gt;/th&gt;
+            &lt;th&gt;Second Column&gt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Data 1&lt;/td&gt;
+            &lt;td&gt;Data 2&lt;/td&gt;
+            &lt;td&gt;Data 3&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Data 1st&lt;/td&gt;
+            &lt;td&gt;Data 2nd&lt;/td&gt;
+            &lt;td&gt;Data 3rd&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt;<span>&</span>nbsp;&lt;/td&gt;
+            &lt;td&gt;Data&lt;/td&gt;
+            &lt;td&gt;Data&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+            </div>
+        </div>
+        <div class="form">
+            <h3>Form</h3>
+            <h4>Sample Form</h4>
+            <p>Form is used to collect user's input, generally user's data is sent to server for further processing.</p>
+            <pre class="language-html"><code>&lt;form action="/contact" method="POST"&gt;
+    &lt;label for="name"&gt;Name: &lt;/label&gt;
+    &lt;input type="text" id="name" name="name"/&gt;
+
+    &lt;label for="age"&gt;Age: &lt;/label&gt;
+    &lt;input type="number" id="age" name="age"/&gt;
+
+    &lt;select name="gender"&gt;
+        &lt;option selected="selected" value="male"&gt;Male&lt;/option&gt;
+        &lt;option value="female"&gt;Female&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;input checked="checked" id="checked" name="newsletter" type="radio" value="daily"/&gt;
+    &lt;label for="checked"&gt;Weekly&lt;/label&gt;
+
+    &lt;button type="submit"&gt;&lt;/button&gt;
+&lt;/form&gt;
+            </code></pre>
+        </div>
+        <div class="symbol">
+            <h2>Symbol</h2>
+            <h5 class="mx-4">Copyright Symbol (©)</h5>
+            <pre class="language-html"><code><span>&</span>copy;</code></pre>
+            <h5 class="mx-4">Less than</h5>
+            <pre class="language-html"><code><span>&</span>lt;</code></pre>
+            <h5 class="mx-4">Greater than</h5>
+            <pre class="language-html"><code><span>&</span>gt;</code></pre>
+            <h5 class="mx-4">Ampersand (&)</h5>
+            <pre class="language-html"><code><span>&</span>amp;</code></pre>
+            <a href="">Click Here to More HTML Entities(HTML Symbol)</a>
+        </div>
+        <div class="Semantic">
+            <h2>Semantic Elements</h2>
+            <h3>&lt;section&gt;</h3>
+            <p>It defines a section in the document.</p>
+            <pre class="language-html"><code>&lt;section&gt;This is a Section&lt;section&gt;</code></pre>
+            <h3>&lt;article&gt;</h3>
+            <p>It represents self-contained content.</p>
+            <pre class="language-html"><code>&lt;article&gt;Saving Money&lt;article&gt;</code></pre>
+            <h3>&lt;aside&gt;</h3>
+            <p>It is used to place content in the sidebar.</p>
+            <pre class="language-html"><code>&lt;aside&gt;My Form Data&lt;aside&gt;</code></pre>
+        </div>
+        <h1>Video Tag</h1>
+        <p>Video is use to display videos <pre class="language-html"><code>&lt;video src="tutorial.mp4"&gt;&lt;/video&gt;</code></pre></p>
+        <h1>Audio Tag</h1>
+        <p>Audio is use to display audio <pre class="language-html"><code>&lt;audio src="tutorial.mp3"&gt;&lt;/video&gt;</code></pre></p>
+        <h1>iframe Tag</h1>
+        <p>iframe is use to display frame <pre class="language-html"><code>&lt;iframe src="https://www.youtube.com" frameborder="0"&gt;&lt;/video&gt;</code></pre></p>
+    </div>
+    <form action="" method="POST" class="my-4">
+        {% csrf_token %}
+        <h1>Comments</h1>
+        <input type="text" class="form-control" placeholder="Enter Your Comment" name="comment">
+        <button class="btn btn-outline-danger my-3">Comment</button>
+    </form>
+    {% comment %} <div class="comment my-6">
+        
+    </div> {% endcomment %}
+</div>
+{% endblock body %}
